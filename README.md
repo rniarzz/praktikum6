@@ -91,11 +91,11 @@ pertama saya membuat looping agar program terus berjalan
 
 
 # output 
-ini adalah output apabila memilih tambah(t)
+ini adalah output apabila memilih tambah (t)
  
 <img width="369" alt="screenshot 1" src="https://user-images.githubusercontent.com/115542704/203813454-b50123af-5d56-4807-a8e8-83196f064439.png">
 
-ini adalah output apabilah memilih  diubah(u)
+ini adalah output apabilah memilih  diubah (u)
 
 <img width="356" alt="screenshot 2" src="https://user-images.githubusercontent.com/115542704/203813676-7bcb5b81-970d-44d0-a245-05a8338ea037.png">
 
@@ -104,7 +104,7 @@ ini adalah apabilah mencari output (c)
 
 <img width="392" alt="screenshot 3" src="https://user-images.githubusercontent.com/115542704/203813876-9eaac216-87e4-4f60-9c28-1fe2be7dabc0.png">
 
-ini adalah output apabila memilih hapus(h) 
+ini adalah output apabila memilih hapus (h) 
 
 ![img](gambar/outputH.png)
 
