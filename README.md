@@ -1,7 +1,7 @@
 ## Nama : Rini Ariza
 ## NIM : 312210337
 ## Kelas : TI.22.A3
-# PERTEMUAN 10 (TUGAS PRATIKUM)
+# PERTEMUAN 10 (TUGAS PRAKTIKUM)
 
 ### Soal
 
