@@ -1,10 +1,11 @@
-# Nama : Rini Ariza
-# NIM : 312210337
-# Kelas : TI.22.A3
-# PERTEMUAN 10 (TUGAS PRATIKUM)
-pada tugas praktium saya diberi soal sebagai berikut
+## Nama : Rini Ariza
+## NIM : 312210337
+## Kelas : TI.22.A3
+## PERTEMUAN 10 (TUGAS PRATIKUM)
 
+### Soal
 
+![soal pet10](https://user-images.githubusercontent.com/115542704/203807634-a7766dd8-9bf7-43ba-9684-c24d86585780.png)
 
 
 # flowchart
@@ -15,62 +16,91 @@ pada tugas praktium saya diberi soal sebagai berikut
 pertama saya membuat looping agar program terus berjalan
 
     while True:
-        c = input("\n(L)ihat, (T)ambah, (U)bah, (H)apus, (C)ari, (K)eluar: ")                                
-
-    lalu saya membuat format if untuk memasukan pilihan , sebagai contoh apabila memilih (t) akan menambah data
-
-    if (c.lower() == 't'):                                               
+    c = input("\n(L)ihat, (T)ambah, (U)bah, (H)apus, (C)ari, (K)eluar: ")
+    if (c.lower() == 't'):
         print('\nTambah Data Mahasiswa Baru')
-        nama= input("Masukkan Nama\t\t: ")                                        
-        nim= input("Masukkan NIM\t\t: ")                                         
-        nilaiTugas= int(input("Masukkan Nilai Tugas\t: "))                              
-        nilaiUts= int(input("Masukkan Nilai UTS\t: "))                                   
-        nilaiUas= int(input("Masukkan Nilai UAS\t: "))                                    
-        nilaiAkhir= (0.30 * nilaiTugas) + (0.35 * nilaiUts) + (0.35 * nilaiUas)              
-        dataMhs[nama]= nim, nilaiTugas, nilaiUts, nilaiUas, nilaiAkhir                         
+        nama= input("Masukkan Nama\t\t: ")
+        nim= input("Masukkan NIM\t\t: ")
+        nilaiTugas= int(input("Masukkan Nilai Tugas\t: "))
+        nilaiUts= int(input("Masukkan Nilai UTS\t: "))
+        nilaiUas= int(input("Masukkan Nilai UAS\t: "))
+        nilaiAkhir= (0.30 * nilaiTugas) + (0.35 * nilaiUts) + (0.35 * nilaiUas)
+        dataMhs[nama]= nim, nilaiTugas, nilaiUts, nilaiUas, nilaiAkhir
         print("\nData Berhasil Ditambahkan!")
-
-    saya juga melakukan percabangan if (elif) untuk melaksanakan pilihan yang lain
-
-    elif (c.lower() == 'u'):                                                                    
-            print('\nMengedit Data Mahasiswa')
-            nama = input("Masukkan Nama: ")                                                         
-            if nama in dataMhs.keys():                              
-                nim= input("Masukkan NIM Baru\t: ")                              
-                nilaiTugas= int(input("Masukkan Nilai Tugas\t: "))                           
-                nilaiUts= int(input("Masukkan Nilai UTS\t: "))                           
-                nilaiUas= int(input("Masukkan Nilai UAS\t: "))                           
-                nilaiAkhir= (0.30 * nilaiTugas) + (0.35 * nilaiUts) + (0.35 * nilaiUas)          
-                dataMhs[nama] = nim, nilaiTugas, nilaiUts, nilaiUas, nilaiAkhir                      
-                print("\nData Berhasil Di Update!")
-
-    dan saya juga menggunakan else untuk apabila salah memasukan pilihan inputan
-
+    elif (c.lower() == 'u'):
+        print('\nMengedit Data Mahasiswa')
+        nama = input("Masukkan Nama: ")
+        if nama in dataMhs.keys():
+            nim= input("Masukkan NIM Baru\t: ")
+            nilaiTugas= int(input("Masukkan Nilai Tugas\t: "))
+            nilaiUts= int(input("Masukkan Nilai UTS\t: "))
+            nilaiUas= int(input("Masukkan Nilai UAS\t: "))
+            nilaiAkhir= (0.30 * nilaiTugas) + (0.35 * nilaiUts) + (0.35 * nilaiUas)
+            dataMhs[nama] = nim, nilaiTugas, nilaiUts, nilaiUas, nilaiAkhir
+            print("\nData Berhasil Di Update!")
         else:
-        print("Pilih menu yang tersedia: ")  
+            print("Data tidak ditemukan!")
+    elif (c.lower() == 'c'):
+        print('\nCari Data Mahasiswa')
+        nama = input("Masukan Nama:  ")
+        if nama in dataMhs.keys():
+            print("\n                   DAFTAR NILAI MAHASISWA                   ")
+            print("==============================================================")
+            print("|     Nama     |    NIM    | Tugas |  UTS  |  UAS  |  Akhir |")
+            print("==============================================================")
+            print("| {0:12s} | {1:9s} | {2:5} | {3:5} | {4:5} | {5:6} |".format(nama, nim, nilaiTugas, nilaiUts, nilaiUas, nilaiAkhir))
+            print("==============================================================")
+        else:
+            print("Datanya {0} Tidak Ada ".format(nama))
+    elif (c.lower() == 'h'):
+        nama = input("Masukkan Nama:  ")
+        if nama in dataMhs.keys():
+            del dataMhs[nama]
+            print("Data Telah dihapus!")
+        else:
+            print("Data Mahasiswa Tidak Ada".format(nama))
+    elif (c.lower() == 'l'):
+        if dataMhs.items():
+            print("\n                      DAFTAR NILAI MAHASISWA                    ")
+            print("==================================================================")
+            print("| No |     Nama     |    NIM    | Tugas |  UTS  |  UAS  |  Akhir |")
+            print("==================================================================")
+            i = 0
+            for x in dataMhs.items():
+                i += 1
+                print("| {6:2} | {0:12s} | {1:9s} | {2:5} | {3:5} | {4:5} | {5:6} |".format(x[0], x[1][0], x[1][1], x[1][2], x[1][3], x[1][4], i))
+            print("==================================================================")
+        else:
+            print("\n                      DAFTAR NILAI MAHASISWA                    ")
+            print("==================================================================")
+            print("| No |     Nama     |    NIM    | Tugas |  UTS  |  UAS  |  Akhir |")
+            print("==================================================================")
+            print("|                          TIDAK ADA DATA!                       |")
+            print("==================================================================")
+    elif (c.lower() == 'k'):
+        print('\n')
+        print(21*'=')
+        print("Nama\t: Rini ariza\nKelas\t: TI.22.A3\nNIM\t: 312110337")
+        print(21*'=')
+        break
 
- # tampilan pada visual studio code  
-
- ![img](gambar/vscode2.png) 
+    else:
+        print("Pilih menu yang tersedia: ")
 
 
 # output 
 ini adalah output apabila memilih tambah(t)
  
-![img](gambar/t.png)
+<img width="369" alt="screenshot 1" src="https://user-images.githubusercontent.com/115542704/203813454-b50123af-5d56-4807-a8e8-83196f064439.png">
 
+ini adalah output apabilah memilih  diubah(u)
 
- ini adalah output apabilah memilih  diubah
+<img width="356" alt="screenshot 2" src="https://user-images.githubusercontent.com/115542704/203813676-7bcb5b81-970d-44d0-a245-05a8338ea037.png">
 
-![img](gambar/U.png)
 
 ini adalah apabilah mencari output (c)
 
-![img](gambar/C.png)
-
-ini adalah output apabila memilih untuk tambah lagi
-
-![img](gambar/output/tll.png)
+<img width="392" alt="screenshot 3" src="https://user-images.githubusercontent.com/115542704/203813876-9eaac216-87e4-4f60-9c28-1fe2be7dabc0.png">
 
 ini adalah output apabila memilih hapus(h) 
 
@@ -82,8 +112,7 @@ ini adalah output apabila memilih lihat (l)
 
 ini adalah output apabila memilih keluar (k)
 
-![img](gambar/outputk.png)
-
+<img width="356" alt="screenshot 4" src="https://user-images.githubusercontent.com/115542704/203813921-7cc966e3-85a1-4170-b0b6-316094b0018d.png">
 
 
 
