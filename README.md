@@ -7,14 +7,12 @@
 
 ![soal2](https://user-images.githubusercontent.com/115542704/203814727-a04667fb-b65b-4f53-b7b4-cd89b118bdbb.png)
 
-
-
-
 # flowchart
 
 ![img](gambar/flowchart.png)
 
 # jawab
+
 pertama saya membuat looping agar program terus berjalan
 
     while True:
@@ -92,13 +90,12 @@ pertama saya membuat looping agar program terus berjalan
 
 # output 
 ini adalah output apabila memilih tambah (t)
- 
-<img width="369" alt="screenshot 1" src="https://user-images.githubusercontent.com/115542704/203813454-b50123af-5d56-4807-a8e8-83196f064439.png">
 
+<img width="355" alt="screenshot6" src="https://user-images.githubusercontent.com/115542704/203822501-a493e161-5cd8-4095-9c2f-225fae7ac17b.png">
+ 
 ini adalah output apabilah memilih  diubah (u)
 
 <img width="356" alt="screenshot 2" src="https://user-images.githubusercontent.com/115542704/203813676-7bcb5b81-970d-44d0-a245-05a8338ea037.png">
-
 
 ini adalah apabilah mencari output (c)
 
@@ -106,11 +103,11 @@ ini adalah apabilah mencari output (c)
 
 ini adalah output apabila memilih hapus (h) 
 
-![img](gambar/outputH.png)
+<img width="422" alt="screenshot7" src="https://user-images.githubusercontent.com/115542704/203822630-f17dad56-1a22-46e1-a69c-cc95152bef94.png">
 
 ini adalah output apabila memilih lihat (l)
 
-![img](gambar/outputL.png)
+<img width="422" alt="screenshot5" src="https://user-images.githubusercontent.com/115542704/203822592-05feefcd-cd90-44e4-8750-1c85b27aafd6.png">
 
 ini adalah output apabila memilih keluar (k)
 
