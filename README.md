@@ -1,11 +1,13 @@
 ## Nama : Rini Ariza
 ## NIM : 312210337
 ## Kelas : TI.22.A3
-## PERTEMUAN 10 (TUGAS PRATIKUM)
+# PERTEMUAN 10 (TUGAS PRATIKUM)
 
 ### Soal
 
-![soal pet10](https://user-images.githubusercontent.com/115542704/203807634-a7766dd8-9bf7-43ba-9684-c24d86585780.png)
+![soal2](https://user-images.githubusercontent.com/115542704/203814727-a04667fb-b65b-4f53-b7b4-cd89b118bdbb.png)
+
+
 
 
 # flowchart
