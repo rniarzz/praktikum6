@@ -87,20 +87,20 @@ del b['dina']
 # jawab
 
 - Pertama buat dictionary kosong
-- 
+
 ```python
 dataMhs = {}
 ```
-
-
-
-
 - Saya membuat looping agar program terus berjalan
 
 ```python
     while True:
     c = input("\n(L)ihat, (T)ambah, (U)bah, (H)apus, (C)ari, (K)eluar: ")
 ```
+
+- Penggunaan if c.lower()
+
+    if c.lower() fungsinya apabila user menginputkan denga huruf besar, maka otomatis akan menjadi huruf kecil sehingga kondisi yang digunakan tercapai
 
 - Lalu saya membuat format if untuk memasukkan pilihan, sebagai contoh apabila memilih (t) akan menambah data
 ```python
