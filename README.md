@@ -66,17 +66,13 @@ p(b.values())
 p(b)
 ```
 
-- Untuk 
+- Untuk menghapus kontak (element dictionary) gunakan format berikut
 
+```python
+del b['dina']
+```
 
-
-
-
-
-
-
-
-
+<img width="399" alt="screenshot10" src="https://user-images.githubusercontent.com/115542704/203908691-a072e8c8-4c6a-4d85-8b6d-a991f86cc5be.png">
 
 ### Soal
 
