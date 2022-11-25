@@ -7,7 +7,7 @@
 
 ![soal3](https://user-images.githubusercontent.com/115542704/203886224-ca19720b-7b3b-4008-9676-a86524bc0ab8.png)
 
-- Pertama buat daftar kontak awal menggunakan dictionary, dengan fortmat Nama (key) dan nomor (value)
+- Pertama buat daftar kontak awal menggunakan dictionary, dengan format nama (key) dan nomor (value)
 - Variable p disini di deklarasikan sebagai perintah print agar lebih mudah
 - Variable b digunakan untuk menyimpan dictionary
 
@@ -24,15 +24,31 @@ p('#    nama    |   nomor telepon')
 p('==============================')
 p('#    ari     |   085267888','\n#    dina    |   087677776')
 ```
-- Untuk menampilkan nomor (value) gunakan perintah berikut
+- Untuk menampilkan kontak gunakan format berikut
 
 ```python
-p('#    ari     |   ',b['ari'])
+p(b['ari'])
 ```
 
 <img width="198" alt="screenshot9" src="https://user-images.githubusercontent.com/115542704/203890552-e24cbf97-fa3b-4bcb-9571-5924bc3df05f.png">
 
-- Untuk menambahkan kontak
+- Untuk menambahkan kontak baru (element dictionary) gunakan format berikut
+
+```python
+b['riko']='087654544'
+```
+
+<img width="201" alt="screenshot8" src="https://user-images.githubusercontent.com/115542704/203901153-338174d1-1d06-4ae3-bef8-7f70617f275e.png">
+
+- Untuk mengubah nomor (value) gunakan format berikut
+
+```python
+b['dina']='088999776'
+```
+
+<img width="194" alt="Cuplikan layar_20221125_090601" src="https://user-images.githubusercontent.com/115542704/203902338-432349a6-f86c-4059-bbe3-55fc5f007c25.png">
+
+
 
 
 
