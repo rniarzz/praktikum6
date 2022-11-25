@@ -217,7 +217,7 @@ ini adalah output apabila memilih  diubah (u)
 
 <img width="356" alt="screenshot 2" src="https://user-images.githubusercontent.com/115542704/203813676-7bcb5b81-970d-44d0-a245-05a8338ea037.png">
 
-ini adalah output apabila memilih  mencari(c)
+ini adalah output apabila memilih  mencari (c)
 
 <img width="392" alt="screenshot 3" src="https://user-images.githubusercontent.com/115542704/203813876-9eaac216-87e4-4f60-9c28-1fe2be7dabc0.png">
 
@@ -232,6 +232,8 @@ ini adalah output apabila memilih hapus (h)
 ini adalah output apabila memilih keluar (k)
 
 <img width="356" alt="screenshot 4" src="https://user-images.githubusercontent.com/115542704/203813921-7cc966e3-85a1-4170-b0b6-316094b0018d.png">
+
+## SEKIAN TERIMAKASIH
 
 
 
