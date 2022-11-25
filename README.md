@@ -3,6 +3,43 @@
 ## Kelas : TI.22.A3
 # PERTEMUAN 10 (TUGAS PRAKTIKUM)
 
+# Latihan 1
+
+![soal3](https://user-images.githubusercontent.com/115542704/203886224-ca19720b-7b3b-4008-9676-a86524bc0ab8.png)
+
+- Pertama buat daftar kontak awal menggunakan dictionary, dengan fortmat Nama (key) dan nomor (value)
+- Variable p disini di deklarasikan sebagai perintah print agar lebih mudah
+- Variable b digunakan untuk menyimpan dictionary
+
+```python
+p=print
+```
+
+```python
+
+b={'ari':'085267888','dina':'087677776'}
+p('Kontak awal')
+p('==============================')
+p('#    nama    |   nomor telepon')
+p('==============================')
+p('#    ari     |   085267888','\n#    dina    |   087677776')
+```
+- Untuk menampilkan nomor (value) gunakan perintah berikut
+
+```python
+p('#    ari     |   ',b['ari'])
+```
+
+<img width="198" alt="screenshot9" src="https://user-images.githubusercontent.com/115542704/203890552-e24cbf97-fa3b-4bcb-9571-5924bc3df05f.png">
+
+
+
+
+
+
+
+
+
 ### Soal
 
 ![soal2](https://user-images.githubusercontent.com/115542704/203814727-a04667fb-b65b-4f53-b7b4-cd89b118bdbb.png)
