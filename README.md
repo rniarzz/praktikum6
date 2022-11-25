@@ -48,6 +48,26 @@ b['dina']='088999776'
 
 <img width="194" alt="Cuplikan layar_20221125_090601" src="https://user-images.githubusercontent.com/115542704/203902338-432349a6-f86c-4059-bbe3-55fc5f007c25.png">
 
+- Untuk menampilkan semua nama (key) gunakan format berikut
+
+```python
+p(b.keys())
+```
+
+- Untuk menampilkan semua nomor (value) gunakan format berikut
+
+```python
+p(b.values())
+```
+
+- Untuk menampilkan semua daftar nama (key) dan nomor (value) gunakan format berikut
+
+```python
+p(b)
+```
+
+- Untuk 
+
 
 
 
