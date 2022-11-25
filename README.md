@@ -121,6 +121,8 @@ dataMhs = {}
 ```
 
 - Saya juga melakukan percabangan if (elif) untuk melaksanakan pilihan yang lain
+- Berikut program untuk mengubah data
+
 ```python
     elif (c.lower() == 'u'):
         print('\nMengedit Data Mahasiswa')
@@ -135,6 +137,11 @@ dataMhs = {}
             print("\nData Berhasil Di Update!")
         else:
             print("Data tidak ditemukan!")
+```            
+
+- Berikut program untuk mencari data
+            
+```python
     elif (c.lower() == 'c'):
         print('\nCari Data Mahasiswa')
         nama = input("Masukan Nama:  ")
@@ -147,6 +154,11 @@ dataMhs = {}
             print("==============================================================")
         else:
             print("Datanya {0} Tidak Ada ".format(nama))
+```
+
+- Berikut program untuk menghapus data
+
+```python
     elif (c.lower() == 'h'):
         nama = input("Masukkan Nama:  ")
         if nama in dataMhs.keys():
@@ -154,6 +166,11 @@ dataMhs = {}
             print("Data Telah dihapus!")
         else:
             print("Data Mahasiswa Tidak Ada".format(nama))
+```
+
+- Berikut program untuk melihat data
+
+```python
     elif (c.lower() == 'l'):
         if dataMhs.items():
             print("\n                      DAFTAR NILAI MAHASISWA                    ")
@@ -172,6 +189,11 @@ dataMhs = {}
             print("==================================================================")
             print("|                          TIDAK ADA DATA!                       |")
             print("==================================================================")
+```
+
+- Berikut program untuk keluar dari program
+
+```python
     elif (c.lower() == 'k'):
         print('\n')
         print(21*'=')
