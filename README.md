@@ -1,7 +1,7 @@
 ## Nama : Rini Ariza
 ## NIM : 312210337
 ## Kelas : TI.22.A3
-# PERTEMUAN 10 (TUGAS PRAKTIKUM)
+# PERTEMUAN 10
 
 # Latihan 1
 
@@ -197,7 +197,7 @@ dataMhs = {}
     elif (c.lower() == 'k'):
         print('\n')
         print(21*'=')
-        print("Nama\t: Rini ariza\nKelas\t: TI.22.A3\nNIM\t: 312110337")
+        print("Nama\t: Rini ariza\nKelas\t: TI.22.A3\nNIM\t: 312210337")
         print(21*'=')
         break
 ```
@@ -231,7 +231,7 @@ ini adalah output apabila memilih hapus (h)
 
 ini adalah output apabila memilih keluar (k)
 
-<img width="356" alt="screenshot 4" src="https://user-images.githubusercontent.com/115542704/203813921-7cc966e3-85a1-4170-b0b6-316094b0018d.png">
+<img width="383" alt="ss 11" src="https://user-images.githubusercontent.com/115542704/203924523-bac9bc1b-c0e2-4ec8-a32f-591f700095a1.png">
 
 ## SEKIAN TERIMAKASIH
 
