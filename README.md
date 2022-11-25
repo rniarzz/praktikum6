@@ -172,13 +172,13 @@ ini adalah apabilah mencari output (c)
 
 <img width="392" alt="screenshot 3" src="https://user-images.githubusercontent.com/115542704/203813876-9eaac216-87e4-4f60-9c28-1fe2be7dabc0.png">
 
-ini adalah output apabila memilih hapus (h) 
-
-<img width="422" alt="screenshot7" src="https://user-images.githubusercontent.com/115542704/203822630-f17dad56-1a22-46e1-a69c-cc95152bef94.png">
-
 ini adalah output apabila memilih lihat (l)
 
 <img width="422" alt="screenshot5" src="https://user-images.githubusercontent.com/115542704/203822592-05feefcd-cd90-44e4-8750-1c85b27aafd6.png">
+
+ini adalah output apabila memilih hapus (h) 
+
+<img width="422" alt="screenshot7" src="https://user-images.githubusercontent.com/115542704/203822630-f17dad56-1a22-46e1-a69c-cc95152bef94.png">
 
 ini adalah output apabila memilih keluar (k)
 
