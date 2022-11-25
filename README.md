@@ -32,6 +32,8 @@ p('#    ari     |   ',b['ari'])
 
 <img width="198" alt="screenshot9" src="https://user-images.githubusercontent.com/115542704/203890552-e24cbf97-fa3b-4bcb-9571-5924bc3df05f.png">
 
+- Untuk menambahkan kontak
+
 
 
 
