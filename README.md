@@ -164,11 +164,11 @@ ini adalah output apabila memilih tambah (t)
 
 <img width="355" alt="screenshot6" src="https://user-images.githubusercontent.com/115542704/203822501-a493e161-5cd8-4095-9c2f-225fae7ac17b.png">
  
-ini adalah output apabilah memilih  diubah (u)
+ini adalah output apabila memilih  diubah (u)
 
 <img width="356" alt="screenshot 2" src="https://user-images.githubusercontent.com/115542704/203813676-7bcb5b81-970d-44d0-a245-05a8338ea037.png">
 
-ini adalah apabilah mencari output (c)
+ini adalah output apabila memilih  mencari(c)
 
 <img width="392" alt="screenshot 3" src="https://user-images.githubusercontent.com/115542704/203813876-9eaac216-87e4-4f60-9c28-1fe2be7dabc0.png">
 
