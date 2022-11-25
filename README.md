@@ -74,7 +74,9 @@ del b['dina']
 
 <img width="399" alt="screenshot10" src="https://user-images.githubusercontent.com/115542704/203908691-a072e8c8-4c6a-4d85-8b6d-a991f86cc5be.png">
 
-### Soal
+# Tugas Praktikum
+
+## Soal
 
 ![soal2](https://user-images.githubusercontent.com/115542704/203814727-a04667fb-b65b-4f53-b7b4-cd89b118bdbb.png)
 
@@ -84,10 +86,24 @@ del b['dina']
 
 # jawab
 
-pertama saya membuat looping agar program terus berjalan
+- Pertama buat dictionary kosong
+- 
+```python
+dataMhs = {}
+```
 
+
+
+
+- Saya membuat looping agar program terus berjalan
+
+```python
     while True:
     c = input("\n(L)ihat, (T)ambah, (U)bah, (H)apus, (C)ari, (K)eluar: ")
+```
+
+- Lalu saya membuat format if untuk memasukkan pilihan, sebagai contoh apabila memilih (t) akan menambah data
+```python
     if (c.lower() == 't'):
         print('\nTambah Data Mahasiswa Baru')
         nama= input("Masukkan Nama\t\t: ")
@@ -98,6 +114,10 @@ pertama saya membuat looping agar program terus berjalan
         nilaiAkhir= (0.30 * nilaiTugas) + (0.35 * nilaiUts) + (0.35 * nilaiUas)
         dataMhs[nama]= nim, nilaiTugas, nilaiUts, nilaiUas, nilaiAkhir
         print("\nData Berhasil Ditambahkan!")
+```
+
+- Saya juga melakukan percabangan if (elif) untuk melaksanakan pilihan yang lain
+```python
     elif (c.lower() == 'u'):
         print('\nMengedit Data Mahasiswa')
         nama = input("Masukkan Nama: ")
@@ -154,10 +174,13 @@ pertama saya membuat looping agar program terus berjalan
         print("Nama\t: Rini ariza\nKelas\t: TI.22.A3\nNIM\t: 312110337")
         print(21*'=')
         break
+```
 
+- Dan saya juga menggunakan else yang digunakan apabila salah memasukkan pilihan inputan
+```python
     else:
         print("Pilih menu yang tersedia: ")
-
+```
 
 # output 
 ini adalah output apabila memilih tambah (t)
