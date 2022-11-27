@@ -197,7 +197,7 @@ dataMhs = {}
     elif (c.lower() == 'k'):
         print('\n')
         print(21*'=')
-        print("Nama\t: Rini ariza\nKelas\t: TI.22.A3\nNIM\t: 312210337")
+        print("Nama\t: Rini Ariza\nKelas\t: TI.22.A3\nNIM\t: 312210337")
         print(21*'=')
         break
 ```
